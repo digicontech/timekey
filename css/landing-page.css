@@ -122,9 +122,9 @@ a.btn:hover {
 
 .story_img {
     border: solid;
-    border-radius: 10px;
-    border-color: #1C1C1C;
-    border-width: 14px;
+    border-radius: 15px;
+    border-color: white;
+/*    border-width: 14px;*/
 }
 
 .content-section-b {

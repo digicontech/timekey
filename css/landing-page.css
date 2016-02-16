@@ -21,6 +21,8 @@ h6 {
     font-weight: 700;
 }
 
+/*Nav section*/
+
 .topnav {
     font-size: 16px; 
     padding-bottom: 8px;
@@ -40,6 +42,8 @@ h6 {
     position: relative;
     margin-top: 15px;
 }
+
+/*Header*/
 
 .lead {
     font-size: 18px;
@@ -116,6 +120,8 @@ a.btn:hover {
     letter-spacing: 2px;
 }
 
+/*Kickstarter*/
+
 .content-section-a {
     padding: 50px 0;
 }
@@ -131,6 +137,8 @@ a.btn:hover {
     border-color: white;
 /*    border-width: 14px;*/
 }
+
+/*APP*/
 
 .content-section-b {
     padding: 50px 0;
@@ -153,6 +161,8 @@ a.btn:hover {
    max-width: 500px;
    height: auto;    
 }
+
+/*Contact*/
 
 .banner {
     padding: 100px 0;

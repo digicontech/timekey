@@ -149,6 +149,11 @@ a.btn:hover {
     border-top: 3px solid #e7e7e7;
 }
 
+.phone {
+   max-width: 500px;
+   height: auto;    
+}
+
 .banner {
     padding: 100px 0;
     color: #f8f8f8;

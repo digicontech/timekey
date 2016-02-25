@@ -37,6 +37,14 @@ body {
 
 /* Background images are set within the HTML using inline CSS, not here */
 
+h2, h3 {
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
 .fill {
     width: 100%;
     height: 100%;
@@ -46,6 +54,16 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.intro-message {
+    position: relative;
+    float: right;
+    margin-right: 370px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    opacity: 0.8;
+}
+
 /* Scroll page 1 */
 
 header {

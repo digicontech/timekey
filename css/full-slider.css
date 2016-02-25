@@ -25,6 +25,12 @@ body {
     top: 0;
 }
 
+/*@media (max-width: 480) {
+    .fa-twitter {
+        width: 100px;
+    }
+}  */
+
 /*@media (max-width: 480px) {
     .header_image {
         margin-top: 150px;

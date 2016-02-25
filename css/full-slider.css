@@ -17,8 +17,49 @@ body {
 
 .carousel-inner {
     height: 100%;
+    margin-top: 100px;
 }
 
+.carousel-caption {
+    padding-top: 10%;
+    top: 0;
+}
+
+/*@media (max-width: 480px) {
+    .header_image {
+        margin-top: 150px;
+    }
+}*/
+/*@media (max-width: 480px) {
+    .carousel {
+        margin-top: 100px;
+    }
+}*/
+
+/*@media (max-width: 480px) {
+    .item {
+        top: 150px;
+    }
+}*/
+
+/*@media (max-width: 480px) {
+    .carousel-inner {
+        margin-top: 100px;
+    }
+}*/
+
+/*.carousel-caption {
+    margin-top: 100px;
+}
+*/
+
+
+@media (max-width: 480px) {
+    .carousel-caption {
+        top: 60px;
+        padding-top: 0;
+    }
+}
 /* NAV */
 
 .topnav {
@@ -27,6 +68,7 @@ body {
     padding-bottom: 8px;
     background-color: white;
     border-bottom: white;
+    max-height: 100px;
  }
 
  #nav_image {
@@ -58,7 +100,6 @@ h2 {
     background-size: cover;
     -o-background-size: cover;
 }
-
 
 /* Scroll page 1 */
 

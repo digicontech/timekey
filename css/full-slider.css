@@ -24,6 +24,11 @@ body {
     padding-top: 10%;
     top: 0;
 }
+ 
+.intro-divider {
+    margin-bottom: 50px;
+}
+
 
 /*@media (max-width: 480) {
     .fa-twitter {
@@ -62,7 +67,7 @@ body {
 
 @media (max-width: 480px) {
     .carousel-caption {
-        top: 60px;
+        top: 30px;
         padding-top: 0;
     }
 }
@@ -74,7 +79,6 @@ body {
     padding-bottom: 8px;
     background-color: white;
     border-bottom: white;
-    max-height: 100px;
  }
 
  #nav_image {
@@ -85,12 +89,13 @@ body {
 
 /* Background images are set within the HTML using inline CSS, not here */
 
-h2, h3 {
-    margin-bottom: 30px;
+h2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-h2 {
-    margin-top: 100px;
+h3 {
+    margin-bottom: 30px;
 }
 
 .btn {

@@ -41,6 +41,10 @@ h2, h3 {
     margin-bottom: 30px;
 }
 
+h2 {
+    margin-top: 100px;
+}
+
 .btn {
     margin-bottom: 30px;
 }
@@ -55,14 +59,6 @@ h2, h3 {
     -o-background-size: cover;
 }
 
-.intro-message {
-    position: relative;
-    float: right;
-    margin-right: 370px;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    opacity: 0.8;
-}
 
 /* Scroll page 1 */
 

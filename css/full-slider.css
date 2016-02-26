@@ -29,6 +29,12 @@ body {
     margin-bottom: 50px;
 }
 
+/*@media (max-width: 480) {
+    .header_image {
+        width: 150px:;
+    }
+}*/
+
 
 /*@media (max-width: 480) {
     .fa-twitter {

@@ -24,9 +24,60 @@ body {
     padding-top: 10%;
     top: 0;
 }
+
+h2 {
+    font-size: 3vw;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 2.5vw;
+}
+
+.btn-lg {
+    font-size: 1.2vw;
+}
+/*
+.img-responsive {
+    width: 50vw;
+}*/
+
+/*
+
+@media (max-width: 480px) {
+    h2 {
+        margin-top: 20px;
+    }
+}*/
+
+/*@media (max-width: 480px) {
+.btn {
+    width: 2.5vw;
+    height: 2.5vw;
+    }
+} 
+
+@media (max-width: 480px) {
+.fa-twitter {
+    width: 2.5vw;
+    height: 2.5vw;
+    }
+} 
+*/
+
+
+/*@media (max-width: 480px)
  
 .intro-divider {
     margin-bottom: 50px;
+}*/
+
+@media (max-width: 480px) {
+    .carousel,
+    .item,
+    .active {
+        height: 100%;
+    }
 }
 
 /*@media (max-width: 480) {

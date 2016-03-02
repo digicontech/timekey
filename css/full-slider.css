@@ -110,8 +110,14 @@ footer {
     padding-right: 20px;
 }
 
+@media (max-width: 480px) {
+    .patent p {
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
 .copyright p {
-    text-align: left;
     padding-left: 20px;
 }
 

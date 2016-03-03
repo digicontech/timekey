@@ -67,8 +67,9 @@ h3 {
  }
 
  #nav_image {
-   width: 185px;
+   width: 175px;
    height: 55px;
+   margin-top: 5px;
    margin-bottom: 10px;
 }
 

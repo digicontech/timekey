@@ -89,6 +89,7 @@
                         </div>
                 </div>
                 <div class="item">
+
                     <!-- Set the second background image using inline CSS below. -->
                     <div class="fill" style="background-image: url('./img/intro-bg.jpg');">
                         
@@ -113,9 +114,8 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
-            </div>
+
 
             <!-- Controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -125,7 +125,18 @@
                 <span class="icon-next"></span>
             </a>
 
-        </header>
+    </header>
+ 
+        <div class="contact-form">
+            <form id="contact-form">
+                <input type="text" placeholder="Full Name" class="form-input" name="full_name" required>
+                <input type="email" placeholder="Email Address" class="form-input" name="email" required>
+                <input type="tel" placeholder="Phone Number" class="form-input" name="telephone" required>
+                <textarea placeholder="Your Message" class="form-input" name="message" required></textarea>
+                <p class="form-messages"></p>
+                <button type="submit" id="contact-form-submit">Send</button>
+            </form>
+        </div>
 
 
         <!-- Footer -->

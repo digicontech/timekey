@@ -7,7 +7,7 @@
 html,
 body {
     height: 100%;
-    background-color: #E9EBED;
+    background-color: #BEC4CD;
 }
 
 .carousel,
@@ -130,8 +130,12 @@ footer {
 
 div.panel-body {
   padding: 40px;
-  background-color: #BEC4CD;
+  background-color: #23263C;
   border-radius: 5px;
+}
+
+.mailing-list-messages, .form-messages {
+    color: white;
 }
 
 

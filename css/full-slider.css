@@ -66,11 +66,26 @@ h3 {
     border-bottom: none;
  }
 
+ .nav-twit {
+    margin-right: 15px;
+ }
+
+ .nav-twit, .nav-fb {
+    margin-top: 15px;
+ }
+
  #nav_image {
    width: 175px;
    height: 55px;
    margin-top: 5px;
    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    #nav_image {
+        width: 120px;
+        height: 37px;
+    }
 }
 
 /* Background images are set within the HTML using inline CSS, not here */

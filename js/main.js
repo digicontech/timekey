@@ -33,7 +33,7 @@ $("#mailing-list").submit(function(e) {
   $button.html('<i class="fa fa-spinner fa-spin"></i>');
   $.ajax({
     type: "POST",
-    url: "./mailing-list.php",
+    url: "./mailing_list.php",
     data: $form.serialize(),
     success: function(data){
         $form.trigger('reset');

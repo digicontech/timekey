@@ -6,7 +6,7 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
 
-        $recipient = "dan@voorpretltd.co.uk";
+        $recipient = "enquires@thetimekey.co.uk";
 
         $subject = "New Enquiry";
 
@@ -27,6 +27,4 @@
         http_response_code(403);
         echo "There was a problem with your submission, please try again.";
     }
-
-
 ?>

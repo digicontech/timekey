@@ -6,7 +6,7 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
 
-        $recipient = "enquires@thetimekey.co.uk";
+        $recipient = "enquiries@thetimekey.co.uk";
 
         $subject = "New Enquiry";
 

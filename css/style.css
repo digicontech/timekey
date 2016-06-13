@@ -66,6 +66,9 @@ div.section2-container {
   div.section2-container button.buy-now-btn {
     margin-right: 55px; }
 
+div.section3-container img {
+  width: 100%; }
+
 footer {
   margin: 50px 0; }
 

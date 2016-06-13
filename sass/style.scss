@@ -1,0 +1,135 @@
+
+
+body {
+    overflow-x: hidden;
+}
+
+header.parallax-window {
+    min-height: 800px;
+}
+
+h2 {
+    font-size: 3vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 2.5vw;
+    margin-bottom: 30px;
+}
+
+.btn-lg {
+    font-size: 1.2vw;
+}
+
+/* NAV */
+
+.topnav {
+    font-size: 14px; 
+    padding: 5px 0 11px 0;
+    border-bottom: none;
+    .navbar-inner {
+      width: 1500px;
+      .navbar-collapse {
+        .navbar-right {
+          margin-top: 20px;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+ }
+
+#nav_image {
+   width: 175px;
+   height: 55px;
+}
+
+@media (max-width: 480px) {
+    #nav_image {
+        width: 120px;
+        height: 37px;
+    }
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); //IE
+    background: rgba(0, 0, 0, 0.78); //NON-IE
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.fill {
+    width: 100%;
+    height: 110%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Scroll page 1 */
+
+footer {
+    margin: 50px 0;
+}
+
+.patent p {
+    text-align: right;
+    padding-right: 20px;
+}
+
+@media (max-width: 480px) {
+    .patent p {
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+.copyright p {
+    padding-left: 20px;
+}
+
+/*Form*/
+
+.container p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.container h3 {
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+div.panel-body {
+  padding: 40px;
+  background-color: #23263C;
+  border-radius: 5px;
+}
+
+.mailing-list-messages, .form-messages {
+    color: white;
+}
+
+
+
+

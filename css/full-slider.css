@@ -4,27 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-html,
 body {
-    height: 100%;
-    background-color: #BEC4CD;
-    font-family: 'Avenir';
+    overflow-x: hidden;
 }
 
-.carousel,
-.item,
-.active {
-    height: 100%;
-}
-
-.carousel-inner {
-    height: 100%;
-    margin-top: 100px;
-}
-
-.carousel-caption {
-    padding-top: 10%;
-    top: 0;
+div.parallax-window {
+    min-height: 800px;
 }
 
 h2 {
@@ -42,21 +27,6 @@ h3 {
     font-size: 1.2vw;
 }
 
-@media (max-width: 480px) {
-    .carousel,
-    .item,
-    .active {
-        height: 105%;
-    }
-}
-
-
-@media (max-width: 480px) {
-    .carousel-caption {
-        top: 30px;
-        padding-top: 0;
-    }
-}
 /* NAV */
 
 .topnav {
@@ -107,16 +77,6 @@ h3 {
 }
 
 /* Scroll page 1 */
-
-header {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 footer {
     margin: 50px 0;

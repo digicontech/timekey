@@ -64,83 +64,10 @@
 
     <!-- Full Page Image Background Carousel Header -->
    
-    <header id="myCarousel" class="carousel slide">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-            </ol>
-            <!-- Wrapper for Slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <!-- Set the first background image using inline CSS below. -->
-                    <div class="fill" style="background-image: url('./img/product-black.jpg');">
-                    </div>
-                     <!--    <div class="row">
-                            <div class="col-lg-12 col-sm-12"> -->
-                                <div class="carousel-caption">
-                                    <div><img style="opacity: 0.7;" class="img-responsive center-block" alt="my text" src="img/TTK2logo2.jpg" class="header_image" width="350"/>
-                                    </div>
-                                    
-                                    <h2>A new way to save money</h2>
-                                        <hr class="intro-divider">
-                                    <h3>Follow our journey here</h3>
-                                    <ul class="list-inline intro-social-buttons">
-                                        <li>
-                                            <a href="https://twitter.com/ttkmoneybox" class="btn btn-default btn-lg icon-resize-small"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.facebook.com/thetimekey" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                                        </li>
-                                        <!-- <li>
-                                            <button class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
-                                        </li> -->
-                                      <!--   <li>
-                                            <a href="mailto:dan@voorpretltd.co.uk" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name"></span></a>
-                                        </li> -->
-                                    </ul>
-                              <!--   </div>    
-                            </div> -->
-                        </div>
-                </div>
-                <div class="item">
-
-                    <!-- Set the second background image using inline CSS below. -->
-                    <div class="fill" style="background-image: url('./img/Render_model.457.jpg');">
-                        
-                    </div>
-                    <div class="carousel-caption">
-                        <div><img style="opacity: 0.7;" class="img-responsive center-block" alt="my text" src="img/Kickstarter.png" width="350"/>
-                        </div>
-                        <h2>Stay connected to play a part in turning our vision into reality.</h2>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/ttkmoneybox" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/thetimekey" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                            <!-- <li>
-                                <button class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
-                            </li> -->
-                    <!--         <li>
-                                <a href="mailto:dan@voorpretltd.co.uk" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name"></span></a>
-                            </li> -->
-                        </ul>
-                    </div>
-                </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="./img/header_image.jpg">
+    </div>
 
 
-            <!-- Controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="icon-prev"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="icon-next"></span>
-            </a>
-
-    </header>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12">
@@ -219,17 +146,14 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <script src="/js/parallax.js-1.4.2/parallax.min.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="./js/main.js"></script>
 
     <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

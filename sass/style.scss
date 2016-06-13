@@ -15,12 +15,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-h3 {
-    font-size: 3.5vw;
-    margin-bottom: 30px;
-    margin-top: 45px;
-}
-
 .btn-lg {
     font-size: 1.2vw;
 }
@@ -77,6 +71,11 @@ h3 {
 
 div.section2-container {
   margin: 50px 350px;
+  h3 {
+      font-size: 3.5vw;
+      margin-bottom: 30px;
+      margin-top: 45px;
+  }
   p {
     font-size: 1.1vw;
     margin-bottom: 45px;
@@ -101,6 +100,37 @@ div.section2-container {
 
 div.section3-container {
   min-height: 600px;
+  position: relative;
+  div.how-it-works {
+    width: 565px;
+    position: absolute;
+    top: 63px;
+    left: 350px;
+    background: #fff;
+    padding: 10px 28px;
+    background: rgba(255, 255, 255, 0.5);
+    h3 {
+      font-size: 3.5vw;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.1vw;
+      margin-bottom: 25px;
+      opacity: 0.8;
+    }
+    ul {
+      margin-bottom: 25px;
+      font-size: 0.9vw;
+      list-style-type: circle;
+      opacity: 0.8;
+      li {
+        margin-bottom: 15px;        
+      }
+      li:before {
+        font-size: 170%;
+      }
+    }
+  }
 }
 
 footer {

@@ -133,6 +133,49 @@ div.section3-container {
   }
 }
 
+//Section 4
+
+div.section4-container {
+  min-height: 600px;
+  margin-left: 350px;
+  div.icon {
+    width: 25.333333%;
+    position: relative;
+    i.fa {
+      width: 8.8%;
+      border: solid;
+      position: absolute;
+      left: 180px;
+      top: 50px;
+      color: $buttoncolor;
+      border-radius: 15%;
+      border-width: 2px;
+    }
+    i.fa-child {
+      padding: 8px 47px 8px 18px;
+    }
+    i.fa-book {
+      padding: 8px 53px 8px 14px;
+    }
+    i.fa-usd {
+      padding: 8px 43px 8px 20px;
+    }
+    i.fa-cog {
+      padding: 8px 50px 8px 15px;
+    }
+    i.fa-cube {
+      padding: 8px 53px 8px 15px;
+    }
+    i.fa-bolt {
+      padding: 8px 42px 8px 23px;
+    }
+    div.text {
+      margin-top: 145px;
+      text-align: center;
+    }
+  }  
+}
+
 footer {
     margin: 50px 0;
 }

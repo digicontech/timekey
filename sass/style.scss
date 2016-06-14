@@ -221,6 +221,25 @@ div.section5-container {
   }
 }
 
+//Section 6
+
+div.section6-container {
+  min-height: 600px;
+  position: relative;
+  h3 {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+  div.girl2 {
+    position: absolute;
+    left: 350px;
+  }
+  img {
+    height: 500px;
+  }
+}
+
 footer {
     margin: 50px 0;
 }

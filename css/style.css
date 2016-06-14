@@ -155,18 +155,15 @@ div.section3-container {
       width: 23%; } }
 
 div.section4-container {
-  min-height: 543px;
-  margin-left: 350px; }
+  min-height: 543px; }
   div.section4-container .row1 {
     margin-bottom: 7px; }
   div.section4-container div.icon {
-    width: 25.333333%;
     position: relative; }
     div.section4-container div.icon i.fa {
       width: 8.8%;
       border: solid;
       position: absolute;
-      left: 180px;
       top: 50px;
       color: #0DA8E0;
       border-radius: 15%;
@@ -186,6 +183,56 @@ div.section4-container {
     div.section4-container div.icon div.text {
       margin-top: 145px;
       text-align: center; }
+
+@media (max-width: 480px) {
+  div.section4-container {
+    margin-left: 10px;
+    margin-right: 10px; }
+    div.section4-container div.icon {
+      width: 100%; }
+      div.section4-container div.icon i.fa {
+        left: 135px; }
+      div.section4-container div.icon p.bolt-p {
+        margin-bottom: 50px; } }
+
+@media (min-width: 768px) {
+  div.section4-container {
+    margin-left: 10px;
+    margin-right: 35px; }
+    div.section4-container i.fa {
+      left: 165px; }
+    div.section4-container p, div.section4-container h4 {
+      width: 50%; }
+    div.section4-container p.bolt-p {
+      margin-bottom: 50px; } }
+
+@media (min-width: 1200px) {
+  div.section4-container {
+    min-height: 575px;
+    margin-left: 450px; }
+    div.section4-container div.icon {
+      width: 21.333333%; }
+      div.section4-container div.icon p, div.section4-container div.icon h4 {
+        width: 100%; }
+      div.section4-container div.icon i.fa {
+        left: 125px;
+        width: 17.333333%; }
+      div.section4-container div.icon p.bolt-p {
+        margin-bottom: 50px; } }
+
+@media (min-width: 1600px) {
+  div.section4-container {
+    min-height: 575px;
+    margin-left: 450px; }
+    div.section4-container div.row2 {
+      margin-bottom: 50px; }
+      div.section4-container div.row2 div.icon {
+        width: 21.333333%; }
+        div.section4-container div.row2 div.icon p, div.section4-container div.row2 div.icon h4 {
+          width: 100%; }
+        div.section4-container div.row2 div.icon i.fa {
+          left: 125px;
+          width: 17.333333%; } }
 
 div.section5-container {
   min-height: 600px;

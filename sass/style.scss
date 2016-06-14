@@ -224,19 +224,16 @@ div.section3-container {
 //Section 4
 
 div.section4-container {
-  min-height: 543px;
-  margin-left: 350px;
+  min-height: 543px;  
   .row1 {
     margin-bottom: 7px;
   }
-    div.icon {
-      width: 25.333333%;
+    div.icon {      
       position: relative;
       i.fa {
         width: 8.8%;
         border: solid;
         position: absolute;
-        left: 180px;
         top: 50px;
         color: $buttoncolor;
         border-radius: 15%;
@@ -265,6 +262,78 @@ div.section4-container {
         text-align: center;
       }
     }
+}
+
+@media (max-width: 480px) {
+  div.section4-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    div.icon {
+      width: 100%;
+      i.fa {
+        left: 135px;
+      }
+      p.bolt-p {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) { 
+  div.section4-container {
+    margin-left: 10px;
+    margin-right: 35px;
+    i.fa {
+      left: 165px;
+    }
+    p, h4 {
+      width: 50%;
+    }
+    p.bolt-p {
+      margin-bottom: 50px;
+    }
+  }  
+}
+
+@media (min-width: 1200px) { 
+  div.section4-container {
+    min-height: 575px;
+    margin-left: 450px;
+    div.icon {
+      width: 21.333333%;
+      p, h4 {
+        width: 100%;
+      }
+      i.fa {
+        left: 125px;
+        width: 17.333333%;
+      }
+      p.bolt-p {
+        margin-bottom: 50px;
+      }
+    }
+  }  
+}
+
+@media (min-width: 1600px) { 
+  div.section4-container {
+    min-height: 575px;
+    margin-left: 450px;
+    div.row2 {
+      margin-bottom: 50px;
+      div.icon {
+        width: 21.333333%;
+        p, h4 {
+          width: 100%;
+        }
+        i.fa {
+          left: 125px;
+          width: 17.333333%;
+        }
+      }
+    }
+  }  
 }
 
 //Section 5 

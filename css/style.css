@@ -32,7 +32,8 @@ h2 {
 @media (max-width: 480px) {
   #nav_image {
     width: 120px;
-    height: 37px; } }
+    height: 37px;
+    margin-left: 23px; } }
 
 .navbar {
   transition: all 0.6s ease-out; }
@@ -44,26 +45,55 @@ h2 {
 .btn {
   margin-bottom: 30px; }
 
-div.section2-container {
-  margin: 50px 350px; }
-  div.section2-container h3 {
-    font-size: 3.5vw;
-    margin-bottom: 30px;
-    margin-top: 45px; }
-  div.section2-container p {
-    font-size: 1.1vw;
-    margin-bottom: 45px; }
-  div.section2-container button {
-    outline: none;
-    border: none;
-    background-color: #0DA8E0;
+div.section2-container h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: 45px; }
+
+div.section2-container p {
+  font-size: 20px;
+  margin-bottom: 45px; }
+
+div.section2-container button {
+  outline: none;
+  border: none;
+  background-color: #0DA8E0;
+  color: white;
+  padding: 9px 11px 7px; }
+  div.section2-container button:hover {
     color: white;
-    padding: 9px 11px 7px; }
-    div.section2-container button:hover {
-      color: white;
-      background-color: #097298; }
-  div.section2-container button.buy-now-btn {
-    margin-right: 55px; }
+    background-color: #097298; }
+
+div.section2-container button.buy-now-btn {
+  margin-right: 55px; }
+
+@media (max-width: 480px) {
+  div.section2-container {
+    margin: 0 10px 0 10px; }
+    div.section2-container .text-block {
+      width: 100%; }
+    div.section2-container img {
+      width: 100%; } }
+
+@media (min-width: 768px) {
+  div.section2-container {
+    margin: 0 10px 0 10px; }
+    div.section2-container .text-block {
+      width: 50%; }
+    div.section2-container img {
+      width: 48%; } }
+
+@media (min-width: 1200px) {
+  div.section2-container {
+    margin: 50px 100px; }
+    div.section2-container .text-block {
+      width: 50%; }
+    div.section2-container img {
+      width: 100%; } }
+
+@media (min-width: 1600px) {
+  div.section2-container {
+    margin: 50px 350px; } }
 
 div.section3-container {
   min-height: 600px;

@@ -47,6 +47,7 @@ h2 {
     #nav_image {
         width: 120px;
         height: 37px;
+        margin-left: 23px;
     }
 }
 
@@ -70,14 +71,13 @@ h2 {
 // Section 2
 
 div.section2-container {
-  margin: 50px 350px;
   h3 {
-      font-size: 3.5vw;
+      font-size: 35px;
       margin-bottom: 30px;
       margin-top: 45px;
   }
   p {
-    font-size: 1.1vw;
+    font-size: 20px;
     margin-bottom: 45px;
   }
   button {
@@ -93,6 +93,48 @@ div.section2-container {
   }
   button.buy-now-btn {
     margin-right: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  div.section2-container {
+    margin: 0 10px 0 10px;
+    .text-block {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 768px) { 
+  div.section2-container {
+    margin: 0 10px 0 10px;
+    .text-block {
+      width: 50%;
+    }
+    img {
+      width: 48%;
+    }
+  }
+}
+
+@media (min-width: 1200px) { 
+  div.section2-container {
+    margin: 50px 100px;
+    .text-block {
+      width: 50%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 1600px) { 
+  div.section2-container {
+    margin: 50px 350px;
   }
 }
 

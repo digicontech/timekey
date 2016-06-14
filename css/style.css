@@ -236,6 +236,50 @@ div.section6-container {
     margin-right: auto;
     margin-top: 100px; }
 
+div.section7-container {
+  height: 500px;
+  background: rgba(235, 236, 228, 0.5); }
+  div.section7-container div.TTK-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px; }
+  div.section7-container div.mailing-list .input-group {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px; }
+  div.section7-container button {
+    background-color: #0DA8E0;
+    color: white; }
+    div.section7-container button:hover {
+      color: white;
+      background-color: #097298; }
+  div.section7-container ul {
+    padding-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+    div.section7-container ul li {
+      display: inline-block; }
+      div.section7-container ul li a {
+        outline: none;
+        border-radius: 50%;
+        padding-top: 17px;
+        padding-bottom: 13px;
+        border: solid #686868 2px;
+        background: none; }
+        div.section7-container ul li a:hover {
+          background: #097298;
+          border-color: white; }
+          div.section7-container ul li a:hover i {
+            color: white; }
+        div.section7-container ul li a i {
+          color: #686868; }
+  div.section7-container h3 {
+    text-align: center;
+    color: #686868; }
+
 footer {
   margin: 50px 0; }
 

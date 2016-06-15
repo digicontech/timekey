@@ -39,6 +39,9 @@ h2 {
         margin-top: 20px;
         a {
           color: white;
+          &:hover {
+            background-color: darken(#fff, 50%);
+          }         
         }
       }
     }
@@ -948,7 +951,10 @@ div.about-section2 {
     .navbar-collapse {
       .navbar-right {
         a {
-          color: #454444
+          color: #454444;
+          &:hover {
+            background-color: lighten(#454444, 60%);
+          }  
         }
       }
     }

@@ -28,6 +28,8 @@ h2 {
       margin-top: 20px; }
       .navbar .container-fluid .navbar-collapse .navbar-right a {
         color: white; }
+        .navbar .container-fluid .navbar-collapse .navbar-right a:hover {
+          background-color: gray; }
 
 .navbar-toggle {
   margin-top: 16px;
@@ -633,6 +635,8 @@ div.about-section2 p.bottom {
 
 .contact-nav .container-fluid .navbar-collapse .navbar-right a {
   color: #454444; }
+  .contact-nav .container-fluid .navbar-collapse .navbar-right a:hover {
+    background-color: #dedddd; }
 
 header.header-contact {
   min-height: 400px;

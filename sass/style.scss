@@ -789,6 +789,7 @@ div.section7-container {
 
 @media (min-width: 1200px) {
   div.section7-container {
+    width: 100%;
     div.TTK-logo {
       img {
         width: 25%;
@@ -804,6 +805,7 @@ div.section7-container {
 
 @media (min-width: 1600px) {
   div.section7-container {
+    width: 100%;
     div.TTK-logo {
       img {
         width: 25%;
@@ -814,6 +816,25 @@ div.section7-container {
         width: 25%;
       }   
     }
+  }
+}
+
+// About Section 1 
+
+header.header-about {
+  min-height: 600px;
+  background: black;
+  position: relative;
+  h1 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 130px;
+  }
+  iframe {
+    display: block;
+    margin: 300px auto 0 auto;
   }
 }
 

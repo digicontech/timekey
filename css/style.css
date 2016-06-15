@@ -547,16 +547,34 @@ div.section7-container {
       width: 90%; } }
 
 @media (min-width: 1200px) {
-  div.section7-container div.TTK-logo img {
-    width: 25%; }
-  div.section7-container div.mailing-list .input-group {
-    width: 25%; } }
+  div.section7-container {
+    width: 100%; }
+    div.section7-container div.TTK-logo img {
+      width: 25%; }
+    div.section7-container div.mailing-list .input-group {
+      width: 25%; } }
 
 @media (min-width: 1600px) {
-  div.section7-container div.TTK-logo img {
-    width: 25%; }
-  div.section7-container div.mailing-list .input-group {
-    width: 25%; } }
+  div.section7-container {
+    width: 100%; }
+    div.section7-container div.TTK-logo img {
+      width: 25%; }
+    div.section7-container div.mailing-list .input-group {
+      width: 25%; } }
+
+header.header-about {
+  min-height: 600px;
+  background: black;
+  position: relative; }
+  header.header-about h1 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 130px; }
+  header.header-about iframe {
+    display: block;
+    margin: 300px auto 0 auto; }
 
 footer {
   margin: 50px 0; }

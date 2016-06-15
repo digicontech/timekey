@@ -115,15 +115,31 @@ div.section2-container {
   div.section2-container {
     margin: 0 10px 0 10px;
     .text-block {
-      width: 50%;
+      width: 100%;
     }
     img {
-      width: 48%;
+      width: 100%;
       margin-top: 50px;
       margin-bottom: 50px;
     }
   }
 }
+
+// @media (min-width: 900px) {
+//   div.section2-container {
+//     margin: 0 10px 0 10px;
+//     .text-block {
+//       width: 60%;
+//       margin-left: 200px;
+//     }
+//     img {
+//       width: 100%;
+//       margin-top: 50px;
+//       margin-bottom: 50px;
+//       margin-left: 260px;
+//     }
+//   }
+// }
 
 @media (min-width: 1200px) { 
   div.section2-container {
@@ -142,6 +158,9 @@ div.section2-container {
 @media (min-width: 1600px) { 
   div.section2-container {
     margin: 0 350px;
+    img {
+
+    }
   }
 }
 
@@ -282,17 +301,42 @@ div.section4-container {
 
 @media (min-width: 768px) { 
   div.section4-container {
-    margin-left: 10px;
+    margin-left: 183px;
     margin-right: 35px;
-    i.fa {
-      left: 165px;
-    }
-    p, h4 {
-      width: 50%;
-    }
-    p.bolt-p {
-      margin-bottom: 50px;
-    }
+    width: 100%;    
+    div.icon {
+      width: 100%;
+      i.fa {
+        left: 165px;
+      }
+      p, h4 {
+        width: 50%;
+      }
+      p.bolt-p {
+        margin-bottom: 50px;
+      }
+    }    
+  }  
+}
+
+@media (min-width: 900px) {
+  div.section4-container {
+    margin-left: 183px;
+    margin-right: 35px;
+    width: 100%;    
+    div.icon {
+      width: 74%;
+      margin-left: 143px;
+      i.fa {
+        left: 165px;
+      }
+      p, h4 {
+        width: 50%;
+      }
+      p.bolt-p {
+        margin-bottom: 50px;
+      }
+    }    
   }  
 }
 
@@ -301,7 +345,7 @@ div.section4-container {
     min-height: 575px;
     margin-left: 450px;
     div.icon {
-      width: 21.333333%;
+      width: 16.333333%;
       p, h4 {
         width: 100%;
       }
@@ -319,11 +363,11 @@ div.section4-container {
 @media (min-width: 1600px) { 
   div.section4-container {
     min-height: 575px;
-    margin-left: 450px;
+    margin-left: 200px;
     div.row2 {
       margin-bottom: 50px;
       div.icon {
-        width: 21.333333%;
+        width: 16.333333%;
         p, h4 {
           width: 100%;
         }
@@ -393,7 +437,7 @@ div.section5-container {
 
 @media (min-width: 768px) {
   div.section5-container {
-    min-height: 775px;
+    min-height: 600px;
     div.the-app {
       margin-left: 30px;
       margin-top: 50px;
@@ -472,7 +516,7 @@ div.section6-container {
     &:before {
       content: attr(data-content);
       z-index: 1;
-      bottom: 30%;
+      bottom: 43%;
       padding: 4px 10px;
       text-align: center;
       box-sizing: border-box;
@@ -484,8 +528,7 @@ div.section6-container {
   .girl1 {
     position: relative;
     padding: 0;
-    border-left: solid white 10px;
-    
+    border-left: solid white 10px;    
     &:after, &:before {
       position: absolute;      
       opacity: 0;
@@ -502,7 +545,7 @@ div.section6-container {
     &:before {
       content: attr(data-content);
       z-index: 1;
-      bottom: 35%;
+      bottom: 43%;
       padding: 4px 10px;
       display: block;
       box-sizing: border-box;
@@ -556,37 +599,62 @@ div.section6-container {
   div.section6-container {
     margin-left: 10px;
     h3 {
-      margin: 50px 40px 50px 40px;
+      margin: 50px 220px;
     }
     .girl2 {
       margin-bottom: 30px;
       img {
-        width: 25%;
+        width: 58%;
         margin-left: 49px;
       }
       &:before {
-          width: 25%;
+          width: 58%;
           text-align: center;
           margin-left: 47px;
       }
     }
     .girl1 {
       img {
-        width: 25%;
+        width: 58%;
         margin-left: 39px;
       }
       &:before {
-          width: 25%;
+          width: 58%;
           text-align: center;
           margin-left: 37px;
       }
     }
     div.kickstarter {
       img {
-        width: 26%;
+        width: 60%;
         display: block;
         margin-top: 100px;
         margin-left: 29px;
+      }   
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  div.section6-container {
+    h3 {
+      margin: 50px 350px;
+    }
+    .girl2 {
+      img {
+        width: 60%;
+        margin-left: 49px;
+      }
+      &:before {
+          width: 60%;
+      }
+    }
+    div.kickstarter {
+      img {
+        width: 60%;
+        display: block;
+        margin-top: 100px;
+        margin-left: 160px;
       }   
     }
   }
@@ -697,7 +765,7 @@ div.section6-container {
 
 div.section7-container {
   width: 100%;
-  background: rgba(235, 236, 228, 0.5);
+  background-color: #f5f5f5;
   min-height: 530px;
   div.TTK-logo {
     img {
@@ -773,16 +841,25 @@ div.section7-container {
 
 @media (min-width: 768px) {
   div.section7-container {
-    width: 50%;
     div.TTK-logo {
       img {
-        width: 100%;
+        width: 57%;
       }
     }
     div.mailing-list {
       .input-group {
         width: 90%;
       }   
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  div.section7-container {
+    div.TTK-logo {
+      img {
+        width: 43%;
+      }
     }
   }
 }

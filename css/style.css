@@ -14,16 +14,31 @@ h2 {
   font-size: 1.2vw; }
 
 /* NAV */
-.topnav {
+.navbar .container-fluid {
+  width: 80%;
+  height: 100px;
   font-size: 14px;
   padding: 5px 0 11px 0;
   border-bottom: none; }
-  .topnav .navbar-inner {
-    width: 1500px; }
-    .topnav .navbar-inner .navbar-collapse .navbar-right {
+  .navbar .container-fluid .navbar-header span {
+    border: solid 1px #BEC4CD; }
+  .navbar .container-fluid .navbar-collapse {
+    color: black; }
+    .navbar .container-fluid .navbar-collapse .navbar-right {
       margin-top: 20px; }
-      .topnav .navbar-inner .navbar-collapse .navbar-right a {
+      .navbar .container-fluid .navbar-collapse .navbar-right a {
         color: white; }
+
+.navbar-toggle {
+  margin-top: 16px;
+  border: 2px solid #BEC4CD; }
+
+.navbar {
+  transition: all 0.6s ease-out; }
+
+.navbar.scrolled {
+  background: #444444;
+  background: rgba(0, 0, 0, 0.78); }
 
 #nav_image {
   width: 175px;
@@ -34,13 +49,6 @@ h2 {
     width: 120px;
     height: 37px;
     margin-left: 23px; } }
-
-.navbar {
-  transition: all 0.6s ease-out; }
-
-.navbar.scrolled {
-  background: #444444;
-  background: rgba(0, 0, 0, 0.78); }
 
 .btn {
   margin-bottom: 30px; }
@@ -623,7 +631,7 @@ div.about-section2 p {
 div.about-section2 p.bottom {
   margin-bottom: 200px; }
 
-.contact-nav .navbar-inner .navbar-collapse .navbar-right a {
+.contact-nav .container-fluid .navbar-collapse .navbar-right a {
   color: #454444; }
 
 header.header-contact {

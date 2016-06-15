@@ -21,22 +21,43 @@ h2 {
 
 /* NAV */
 
-.topnav {
+.navbar {
+  .container-fluid {
+    .navbar-header {
+      span {
+        border: solid 1px #BEC4CD;
+      }
+    }
+    width: 80%;
+    height: 100px;
     font-size: 14px; 
     padding: 5px 0 11px 0;
     border-bottom: none;
-    .navbar-inner {
-      width: 1500px;
-      .navbar-collapse {
-        .navbar-right {
-          margin-top: 20px;
-          a {
-            color: white;
-          }
+    .navbar-collapse {
+      color: black;
+      .navbar-right {
+        margin-top: 20px;
+        a {
+          color: white;
         }
       }
     }
+  }
  }
+
+.navbar-toggle {
+  margin-top: 16px;
+  border: 2px solid #BEC4CD;
+}
+
+.navbar {
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgb(68, 68, 68); //IE
+  background: rgba(0, 0, 0, 0.78); //NON-IE
+}
 
 #nav_image {
    width: 175px;
@@ -49,19 +70,6 @@ h2 {
         height: 37px;
         margin-left: 23px;
     }
-}
-
-.navbar {
-    -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
-}
-
-.navbar.scrolled {
-    background: rgb(68, 68, 68); //IE
-    background: rgba(0, 0, 0, 0.78); //NON-IE
 }
 
 .btn {
@@ -936,7 +944,7 @@ div.about-section2 {
 // Contact Section 1
 
 .contact-nav {
-  .navbar-inner {
+  .container-fluid {
     .navbar-collapse {
       .navbar-right {
         a {
@@ -944,7 +952,7 @@ div.about-section2 {
         }
       }
     }
-  }
+  }  
 }
 
 header.header-contact {

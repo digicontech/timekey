@@ -576,6 +576,19 @@ header.header-about {
     display: block;
     margin: 300px auto 0 auto; }
 
+div.about-section2 h2, div.about-section2 p {
+  text-align: center;
+  margin-bottom: 100px; }
+
+div.about-section2 h2 {
+  margin-top: 100px; }
+
+div.about-section2 p {
+  font-size: 20px; }
+
+div.about-section2 p.bottom {
+  margin-bottom: 200px; }
+
 footer {
   margin: 50px 0; }
 

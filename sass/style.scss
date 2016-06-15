@@ -838,6 +838,24 @@ header.header-about {
   }
 }
 
+// About Section 2
+
+div.about-section2 {
+  h2, p {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  h2 {
+    margin-top: 100px;
+  }
+  p {
+    font-size: 20px;
+  }
+  p.bottom {
+    margin-bottom: 200px;
+  }
+}
+
 footer {
     margin: 50px 0;
 }

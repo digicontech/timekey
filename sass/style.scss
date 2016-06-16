@@ -765,7 +765,7 @@ div.section6-container {
 
 //section 7
 
-div.section7-container {
+div.section7-container, div.contact-section3-container, div.about-section3-container {
   height: 550px;
   background: rgba(235, 236, 228, 0.5);
   div.TTK-logo {
@@ -826,7 +826,7 @@ div.section7-container {
 }
 
 @media (max-width: 480px) {
-  div.section7-container {
+  div.section7-container, div.contact-section3-container, div.about-section3-container {
     min-height: 450px;
     div.TTK-logo {
       img {
@@ -1026,8 +1026,8 @@ div.contact-section2 {
 
 @media (max-width: 480px) {
   div.contact-section2 {
-      margin: 50px 10px 0 10px;
-      width: 95%;
+    margin: 50px 10px 0 10px;
+    width: 95%;
   }
 }
 

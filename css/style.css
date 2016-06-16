@@ -533,56 +533,56 @@ div.section6-container {
       margin-right: auto;
       margin-top: 100px; } }
 
-div.section7-container {
+div.section7-container, div.contact-section3-container, div.about-section3-container {
   height: 550px;
   background: rgba(235, 236, 228, 0.5); }
-  div.section7-container div.TTK-logo img {
+  div.section7-container div.TTK-logo img, div.contact-section3-container div.TTK-logo img, div.about-section3-container div.TTK-logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 400px; }
-  div.section7-container div.mailing-list .input-group {
+  div.section7-container div.mailing-list .input-group, div.contact-section3-container div.mailing-list .input-group, div.about-section3-container div.mailing-list .input-group {
     margin-left: auto;
     margin-right: auto;
     width: 600px; }
-  div.section7-container button {
+  div.section7-container button, div.contact-section3-container button, div.about-section3-container button {
     background-color: #0DA8E0;
     color: white; }
-    div.section7-container button:hover {
+    div.section7-container button:hover, div.contact-section3-container button:hover, div.about-section3-container button:hover {
       color: white;
       background-color: #097298; }
-  div.section7-container ul {
+  div.section7-container ul, div.contact-section3-container ul, div.about-section3-container ul {
     padding-left: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center; }
-    div.section7-container ul li {
+    div.section7-container ul li, div.contact-section3-container ul li, div.about-section3-container ul li {
       display: inline-block; }
-      div.section7-container ul li a {
+      div.section7-container ul li a, div.contact-section3-container ul li a, div.about-section3-container ul li a {
         outline: none;
         border-radius: 50%;
         padding-top: 17px;
         padding-bottom: 13px;
         border: solid #686868 2px;
         background: none; }
-        div.section7-container ul li a:hover {
+        div.section7-container ul li a:hover, div.contact-section3-container ul li a:hover, div.about-section3-container ul li a:hover {
           background: #097298;
           border-color: white; }
-          div.section7-container ul li a:hover i {
+          div.section7-container ul li a:hover i, div.contact-section3-container ul li a:hover i, div.about-section3-container ul li a:hover i {
             color: white; }
-        div.section7-container ul li a i {
+        div.section7-container ul li a i, div.contact-section3-container ul li a i, div.about-section3-container ul li a i {
           color: #686868; }
-  div.section7-container h3 {
+  div.section7-container h3, div.contact-section3-container h3, div.about-section3-container h3 {
     text-align: center;
     color: #686868; }
 
 @media (max-width: 480px) {
-  div.section7-container {
+  div.section7-container, div.contact-section3-container, div.about-section3-container {
     min-height: 450px; }
-    div.section7-container div.TTK-logo img {
+    div.section7-container div.TTK-logo img, div.contact-section3-container div.TTK-logo img, div.about-section3-container div.TTK-logo img {
       width: 100%; }
-    div.section7-container div.mailing-list .input-group {
+    div.section7-container div.mailing-list .input-group, div.contact-section3-container div.mailing-list .input-group, div.about-section3-container div.mailing-list .input-group {
       width: 90%; } }
 
 @media (min-width: 768px) {

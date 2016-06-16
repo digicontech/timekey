@@ -55,6 +55,19 @@ $("#mailing-list").delegate(':input', 'focus', function() {
 })
 
 
+$(".jumper").on("click", function( e ) {
+  e.preventDefault();
+  $("body, html").animate({ 
+      scrollTop: $( $(this).attr('href') ).offset().top 
+  }, 2000);
+});
+
+// $(".jumper").click(function() {
+//   $('html,body').animate({
+//     scrollTop: $("#kickstarter").offset().top},
+//     2000);
+// });
+
 function checkScroll(){
     var startY = $('.navbar').height() * 8; //The point where the navbar changes in px
 

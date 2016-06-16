@@ -1,15 +1,10 @@
 <?php  
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        print $email;
         $recipient = "nyejones01@gmail.com";
-        print $recipient;
         $subject = "Mailing list";
-        print $subject;
         $email_content = "Email: $email\n\n";
         $email_headers = "From: Mailing-List-Enquiry";
-        print $email_content;
-        print $email_headers;
 
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             http_response_code(200);

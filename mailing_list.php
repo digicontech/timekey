@@ -2,7 +2,7 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         print $email;
-        $recipient = "enquiries@thetimekey.co.uk";
+        $recipient = "nyejones01@gmail.com";
         print $recipient;
         $subject = "Mailing list";
         print $subject;

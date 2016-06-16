@@ -78,8 +78,22 @@ h2 {
     }
 }
 
+// @media (max-width: 780px) {
+//     .navbar {
+//       width: 780px;
+//     }
+// }
+
 .btn {
     margin-bottom: 30px;
+}
+
+header {
+  img {
+    position: absolute;
+    left: 62%;
+    top: 16%;
+  }
 }
 
 // Section 2

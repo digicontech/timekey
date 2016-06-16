@@ -57,6 +57,11 @@ h2 {
 .btn {
   margin-bottom: 30px; }
 
+header img {
+  position: absolute;
+  left: 62%;
+  top: 16%; }
+
 div.section2-container h3 {
   font-size: 35px;
   margin-bottom: 30px;

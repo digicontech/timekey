@@ -539,6 +539,9 @@ div.section7-container {
   div.section7-container div.mailing-list .input-group {
     margin-left: auto;
     margin-right: auto; }
+  div.section7-container div.mailing-list p {
+    color: #454444;
+    text-align: center; }
   div.section7-container button {
     background-color: #0DA8E0;
     color: white; }
@@ -674,6 +677,8 @@ div.contact-section2 {
     background-color: white; }
   div.contact-section2 .contact-form h3 {
     font-weight: 400; }
+  div.contact-section2 .contact-form p {
+    color: #454444; }
   div.contact-section2 .contact-form .panel-body {
     background: #f5f5f5; }
     div.contact-section2 .contact-form .panel-body button {

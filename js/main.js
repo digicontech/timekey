@@ -2,7 +2,7 @@
 $("#contact-form").submit(function(e) {
   $('.form-messages').fadeOut();
   $button = $('#contact-form-submit');
-  $form =  $("#contact-form");
+  $form = $("#contact-form");
   $button.html('<i class="fa fa-spinner fa-spin"></i>');
   $.ajax({
     type: "POST",
@@ -26,10 +26,11 @@ $("#contact-form").delegate(':input', 'focus', function() {
     $('#contact-form-submit').html('Send');
 })
 
+
 $("#mailing-list").submit(function(e) {
   $('.mailing-list-messages').fadeOut();
   $button = $('#mailing-list-submit');
-  $form =  $("#mailing-list");
+  $form = $("#mailing-list");
   $button.html('<i class="fa fa-spinner fa-spin"></i>');
   $.ajax({
     type: "POST",
@@ -52,6 +53,7 @@ $("#mailing-list").submit(function(e) {
 $("#mailing-list").delegate(':input', 'focus', function() {
     $('#mailing-list-submit').html('Send');
 })
+
 
 function checkScroll(){
     var startY = $('.navbar').height() * 8; //The point where the navbar changes in px

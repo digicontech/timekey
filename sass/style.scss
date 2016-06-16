@@ -1024,6 +1024,12 @@ div.contact-section2 {
   }
 }
 
+@media (max-width: 480px) {
+  div.contact-section2 {
+      margin: 50px 10px 0 10px;
+      width: 95%;
+  }
+}
 
 footer {
     margin: 50px 0;

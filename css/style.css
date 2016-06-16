@@ -31,9 +31,6 @@ h2 {
         .navbar .container-fluid .navbar-collapse .navbar-right a:hover {
           background-color: gray; }
 
-.home-nav {
-  width: 25%; }
-
 .navbar-toggle {
   margin-top: 16px;
   border: 2px solid #BEC4CD; }
@@ -54,9 +51,8 @@ h2 {
     width: 120px;
     height: 37px;
     margin-left: 23px; }
-  .navbar-toggle {
-    margin-top: 16px;
-    border: 2px solid #BEC4CD; } }
+  .navbar {
+    width: 320px; } }
 
 .btn {
   margin-bottom: 30px; }
@@ -91,7 +87,10 @@ div.section2-container button.buy-now-btn {
     div.section2-container img {
       width: 100%;
       margin-top: 50px;
-      margin-bottom: 50px; } }
+      margin-bottom: 50px; }
+  .navbar.scrolled {
+    background: transparent;
+    background: transparent; } }
 
 @media (min-width: 768px) {
   div.section2-container {

@@ -48,6 +48,10 @@ h2 {
   }
  }
 
+.home-nav {
+  width: 25%;
+}
+
 .navbar-toggle {
   margin-top: 16px;
   border: 2px solid #BEC4CD;
@@ -68,11 +72,15 @@ h2 {
 }
 
 @media (max-width: 480px) {
-    #nav_image {
-        width: 120px;
-        height: 37px;
-        margin-left: 23px;
-    }
+  #nav_image {
+      width: 120px;
+      height: 37px;
+      margin-left: 23px;
+  }
+  .navbar-toggle {
+    margin-top: 16px;
+    border: 2px solid #BEC4CD;
+  }
 }
 
 .btn {

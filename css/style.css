@@ -31,6 +31,9 @@ h2 {
         .navbar .container-fluid .navbar-collapse .navbar-right a:hover {
           background-color: gray; }
 
+.home-nav {
+  width: 25%; }
+
 .navbar-toggle {
   margin-top: 16px;
   border: 2px solid #BEC4CD; }
@@ -50,7 +53,10 @@ h2 {
   #nav_image {
     width: 120px;
     height: 37px;
-    margin-left: 23px; } }
+    margin-left: 23px; }
+  .navbar-toggle {
+    margin-top: 16px;
+    border: 2px solid #BEC4CD; } }
 
 .btn {
   margin-bottom: 30px; }

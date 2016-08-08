@@ -331,7 +331,7 @@ div.section5-container {
 
 @media (max-width: 480px) {
   div.section5-container {
-    height: 146%; }
+    height: 177%; }
     div.section5-container .col-xs-12 {
       height: 50%; }
     div.section5-container div.the-app {
@@ -351,7 +351,7 @@ div.section5-container {
 
 @media (min-width: 1200px) {
   div.section5-container {
-    height: 68%; }
+    height: 77%; }
     div.section5-container .col-md-6 {
       height: 100%; }
     div.section5-container div.the-app {
@@ -360,7 +360,7 @@ div.section5-container {
 
 @media (min-width: 1600px) {
   div.section5-container {
-    height: 68%; }
+    height: 77%; }
     div.section5-container .col-md-6 {
       height: 100%; }
     div.section5-container div.the-app {

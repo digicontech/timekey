@@ -4,7 +4,16 @@ body {
   font-weight: lighter; }
 
 header.parallax-window {
-  min-height: 800px; }
+  min-height: 800px;
+  width: 100%; }
+
+@media (max-width: 480px) {
+  header.parallax-window {
+    width: 160%; } }
+
+@media (min-width: 768px) {
+  header.parallax-window {
+    width: 100%; } }
 
 h2 {
   font-size: 3vw;
@@ -63,7 +72,6 @@ h2 {
     margin-left: 23px; }
   .navbar {
     width: 320px;
-    background-color: white;
     height: 78px; } }
 
 .btn {

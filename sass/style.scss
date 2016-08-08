@@ -36,6 +36,19 @@ body {
 
 header.parallax-window {
     min-height: 800px;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    header.parallax-window {
+      width: 160%;
+    }
+}
+
+@media (min-width: 768px) { 
+  header.parallax-window {
+    width: 100%;
+  }
 }
 
 h2 {

@@ -28,6 +28,7 @@ $("#contact-form").delegate(':input', 'focus', function() {
 
 
 $("#mailing-list").submit(function(e) {
+  console.log("hi");
   $('.mailing-list-messages').fadeOut();
   $button = $('#mailing-list-submit');
   $form = $("#mailing-list");
@@ -69,7 +70,7 @@ $(".jumper").on("click", function( e ) {
 // });
 
 function checkScroll(){
-    var startY = $('.navbar').height() * 8; //The point where the navbar changes in px
+    var startY = $('.navbar').height() * 4; //The point where the navbar changes in px
 
     if($(window).scrollTop() > startY){
         $('.navbar').addClass("scrolled");
@@ -84,5 +85,11 @@ if($('.navbar').length > 0){
     });
 }
 
+// if (window.chrome) {
+//     $("[type=video\\\/mp4]").each(function() {
+//         $(this).attr('src', $(this).attr('src').replace(".mp4", ".ogg"));
+//         console.log($(this).attr('src', $(this).attr('src')));
+//     });
+// }
 
 

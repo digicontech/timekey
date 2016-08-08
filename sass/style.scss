@@ -139,6 +139,9 @@ h2 {
       // background-color: white;
       height: 78px;
     }
+    .navbar.scrolled {
+      display: none;
+    }
 }
 
 .btn {
@@ -1090,7 +1093,7 @@ div.contact-section2 {
   .faqHeader {
       font-size: 27px;
       font-weight: 400;
-      margin: 20px 0 50px 0;
+      margin: -8px 0 27px 0;
   }
   .panel-heading [data-toggle="collapse"]:after {
       font-family: FontAwesome;

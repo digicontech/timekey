@@ -90,28 +90,29 @@ header img {
     top: 35%;
     width: 31%; } }
 
-div.section2-container h3 {
-  font-size: 35px;
-  margin-bottom: 30px;
-  margin-top: 45px;
-  font-weight: 400; }
-
-div.section2-container p {
-  font-size: 20px;
-  margin-bottom: 45px; }
-
-div.section2-container button {
-  outline: none;
-  border: none;
-  background-color: #0DA8E0;
-  color: white;
-  padding: 9px 11px 7px; }
-  div.section2-container button:hover {
+div.section2-container {
+  min-height: 600px; }
+  div.section2-container .text-block {
+    margin-top: 100px; }
+  div.section2-container h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    font-weight: 400; }
+  div.section2-container p {
+    font-size: 20px;
+    margin-bottom: 45px; }
+  div.section2-container button {
+    outline: none;
+    border: none;
+    background-color: #0DA8E0;
     color: white;
-    background-color: #097298; }
-
-div.section2-container button.buy-now-btn {
-  margin-right: 55px; }
+    padding: 9px 11px 7px; }
+    div.section2-container button:hover {
+      color: white;
+      background-color: #097298; }
+  div.section2-container button.buy-now-btn {
+    margin-right: 55px; }
 
 @media (max-width: 480px) {
   div.section2-container {

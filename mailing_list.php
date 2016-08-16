@@ -1,7 +1,7 @@
 <?php  
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = filter_var(trim($_POST["mailing_list_email"]), FILTER_SANITIZE_EMAIL);
-        $recipient = "enquiries@thetimekey.co.uk";
+        $recipient = "will@voorpretltd.co.uk";
         $subject = "Mailing list";
         $email_content = "Email: $email\n\n";
         $email_headers = "From: Mailing-List-Enquiry";

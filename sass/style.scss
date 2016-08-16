@@ -169,7 +169,10 @@ header {
 // Section 2
 
 div.section2-container {
-  // min-height: 600px;
+  min-height: 600px;
+  .text-block {
+    margin-top: 100px;
+  }
   h3 {
     font-size: 35px;
     margin-bottom: 30px;

@@ -118,7 +118,10 @@ div.section2-container {
   div.section2-container {
     margin: 0 10px 0 10px; }
     div.section2-container .text-block {
-      width: 100%; }
+      width: 100%;
+      margin-top: 50px; }
+      div.section2-container .text-block h3 {
+        margin-top: 0; }
     div.section2-container img {
       width: 100%;
       margin-top: 50px;
@@ -373,7 +376,7 @@ div.section5-container {
     div.section5-container .col-md-6 {
       height: 100%; }
     div.section5-container div.the-app {
-      margin: 5% 14% 0 0; }
+      margin: 8% 14% 0 0; }
       div.section5-container div.the-app p {
         font-size: 0.9vw; } }
 
